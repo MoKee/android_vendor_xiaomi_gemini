@@ -17,9 +17,18 @@
 # Pick up overlay for features that depend on non-open-source files
 
 PRODUCT_PACKAGES += \
+    datastatusnotification \
+    embms \
     fastdormancy \
+    QtiTelephonyService \
     shutdownlistener \
     TimeService
+
+PRODUCT_PACKAGES += \
+    qdcm_calib_data_jdi_fhd_cmd_incell_dsi_panel.xml \
+    qdcm_calib_data_jdi_j1_fhd_cmd_incell_dsi_panel.xml \
+    qdcm_calib_data_lgd_fhd_cmd_incell_dsi_panel.xml \
+    qdcm_calib_data_sharp_fhd_cmd_incell_dsi_panel.xml
 
 PRODUCT_PACKAGES += \
     qcnvitems \
@@ -37,6 +46,7 @@ PRODUCT_PACKAGES += \
     QtiTetherService
 
 PRODUCT_PACKAGES += \
+    colorservice \
     ims \
     imssettings
 
